@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    background: #010001;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.container {
+   margin-left: 104px;
+   margin-right: 104px;
+}
+
+.d-f {
+    display: flex;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 54px;
+}
+
+.nav-list {
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav-list-item a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-list-item a:hover {
+    color: aquamarine;
+}
+
+.item-light a {
+    color: #808080;
+}
+
+.spacex-caption {
+     margin-top: 120.29px;
+}
+
+.spacex-title {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.spacex-subtitle {
+    margin-top: 26px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.spacex-line {
+    width: 2px;
+    margin: 26px auto;
+}
+
+.spacex-earth {
+   width: 839px;
+   margin: 179px auto;
+}
+
+.falcon-about {
+    align-items: center;
+}
+
+.falcon-info-title {
+    width: 177px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.falcon-info-stats {
+    margin-top: 45px;
+    margin-bottom: 218px;
+    gap: 130px;
+}
+
+.stats-title, .stats-desc {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 179.69%;
+}
+
+.stats-desc span {
+    color: #B2B0B2;
+}
+
+.falcon-info-subtitle {
+    margin-top: 45px;
+    width: 490px;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.footer {
+    width: 544px;
+    margin: 183px auto;
+    text-align: center;
+}
+
+.footer-social {
+    list-style-type: none;
+    margin-top: 43.9px;
+    gap: 20px;
+}
+
+.footer-social-item a {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-desc {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #808080;
+}
+
+.footer-social-item a:hover {
+    color: cornflowerblue;
+}
+
+.footer-contact {
+    display: block;
+    width: 260px;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
